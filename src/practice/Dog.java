@@ -22,8 +22,8 @@ public class Dog extends AnimalAbstract implements Animal{
 
     @Override
     public void printInfo() {
+        super.printInfo();
         sound();
-        printFace();
     }
 
     @Override
@@ -32,6 +32,7 @@ public class Dog extends AnimalAbstract implements Animal{
     }
     public static void main(String [] args){
         Dog dog = new Dog("buddy", "white", "cutie", 5, "poodle");
+        dog.setCharacter("\uD83D\uDC15");
         dog.printInfo();
     }
 }

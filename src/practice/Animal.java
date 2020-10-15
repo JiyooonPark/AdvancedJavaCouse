@@ -5,7 +5,6 @@ public interface Animal {
 
     void sound();
     void move();
-    void printInfo();
     void printFace();
 
 }
