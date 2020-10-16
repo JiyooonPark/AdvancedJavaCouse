@@ -7,6 +7,8 @@ public class Frame1 extends JFrame {
     public Frame1(){
         setTitle("BorderLayoutTest");
         setSize(300, 550);
+        //기본 관리자여서 불필요!
+        setLayout(new BorderLayout());
 
         JButton b1 = new JButton("NORTH");
         JButton b2 = new JButton("SOUTH");
