@@ -1,5 +1,5 @@
 package practice;
-
+/*
 public class Dog extends AnimalAbstract implements Animal{
     String breed;
 
@@ -36,3 +36,4 @@ public class Dog extends AnimalAbstract implements Animal{
         dog.printInfo();
     }
 }
+*/

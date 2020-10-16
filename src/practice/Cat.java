@@ -1,9 +1,9 @@
-package practice;
+/*package practice;
 
 public class Cat extends AnimalAbstract implements Animal {
 
-    Cat(String name, String color, String shape, int age, String kind) {
-        super(name, color, shape, age, kind);
+    Cat(String name, String color, String shape, int age, String kind, String character) {
+        super(name, color, shape, age, kind, character);
     }
 
     @Override
@@ -21,3 +21,4 @@ public class Cat extends AnimalAbstract implements Animal {
 
     }
 }
+*/
