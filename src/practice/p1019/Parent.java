@@ -1,6 +1,7 @@
 package practice.p1019;
 
-public abstract class Parent {
+// abstract 가 빠져도 괜찮다.
+public class Parent {
     String familyName = "Yoon", name;
     int age;
 
