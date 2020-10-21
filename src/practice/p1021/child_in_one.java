@@ -12,12 +12,17 @@ public class child_in_one extends all_in_one{
         super(days_left, feeling);
         this.name_of_exam = name_of_exam;
     }
+    @Override
     void printInfo(){
         System.out.println("for "+ name_of_exam+" ");
         super.printInfo();
     }
+    void print(){
+        super.printInfo();
+        this.printInfo();
+    }
     public static void main(String [] args){
         child_in_one c = new child_in_one(2, "doomed", "computer architecture");
-        c.printInfo();
+        c.print();
     }
 }
