@@ -12,7 +12,8 @@ public class GUI extends JFrame {
         j.add(new JButton("I am a button"));
         j.add(new JButton("I am a button"));
         add(j);
-        add(j);
+        add(j);//cannot add the same object twice
+
         add(new JButton("Hello"));
     }
     public static void main(String [] args){
