@@ -6,7 +6,7 @@ public class gui_in_one extends JFrame{
     gui_in_one(){
         setVisible(true);
         setSize(100,100);
-        setLayout(new BorderLayout());
+        setLayout(new FlowLayout(FlowLayout.RIGHT));
         setTitle("yes");
         add(new JButton("hello"));
     }
