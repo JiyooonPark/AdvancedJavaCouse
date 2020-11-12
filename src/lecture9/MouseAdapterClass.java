@@ -21,7 +21,8 @@ public class MouseAdapterClass extends JFrame {
         setVisible(true);
     }
     class MyMouse extends MouseAdapter {
-
+        //not an interface thus need to kin of memorize what needs to be overwritten
+        //does not automatically implement the abstract methods
         @Override
         public void mousePressed(MouseEvent e) {
             //실행할 코드
