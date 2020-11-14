@@ -3,7 +3,7 @@ package answers.chapter2;
 public class Calculator {
 	int num1,num2;
 	
-	//������
+	//??????
 	Calculator(int num1,int num2){
 		this.num1=num1;
 		this.num2=num2;
@@ -35,7 +35,7 @@ public class Calculator {
 	int mul(int num1, int num2) {
 		return num1*num2;
 	}
-	//*** �߿� ����ȯ:����������ȯ/���������ȯ
+	//*** ??? ?????:???????????/??????????
 	double div(int num1, int num2) {
 		return (double)num1/num2;
 	}
