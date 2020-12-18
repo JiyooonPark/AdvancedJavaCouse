@@ -133,3 +133,4 @@ public class all_sort_2 {
         out_result.close();
     }
 }
+>>>>>>> 6c64804... git merge error

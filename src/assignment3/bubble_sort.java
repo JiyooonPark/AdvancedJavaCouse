@@ -49,4 +49,5 @@ public class bubble_sort
 //        System.out.print("time it took : "+ elapsedTime);
 //    }
 } 
+>>>>>>> 6c64804... git merge error
   
