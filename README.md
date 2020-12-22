@@ -50,4 +50,16 @@ updated almost eveyday :smile:
    - HashMap ( similar to python distionary)
    - Vector class
    - ArrayList class
+   
+10. lecture 12 
+    - File input and output. 
+    - File Reader, File Writer
+    - read csv files
 
+11. lecture 13
+    
+    - Thread Programming
+
+12. lecture 14  
+    - Server & Client test
+    - Network Programming
